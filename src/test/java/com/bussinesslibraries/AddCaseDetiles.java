@@ -16,7 +16,7 @@ public class AddCaseDetiles {
 	
 	public void addCase() throws Exception {
 		
-		WebdriverCommonUtills.enterValue(hmp.caseRealtesTo, "sag");
+		WebdriverCommonUtills.enterValue(hmp.caseRealtesTo, "sag"); //mohith
 		
 		List<WebElement>lis =WebdriverCommonUtills.listOfWebElemnts(hmp.caseRealtesTo);
 		
