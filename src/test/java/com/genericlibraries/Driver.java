@@ -16,7 +16,7 @@ public static WebDriver driver = null;
 		if (browserName.equalsIgnoreCase("FF")) {
 			System.setProperty("webdriver.firefox.marionette", 
 					"src/test/resources/libs/geckodriver.exe");
-			driver = new FirefoxDriver();
+			driver = new FirefoxDriver();//mohith
 			
 		}else if (browserName.equalsIgnoreCase("CHROME")) {
 			System.setProperty("webdriver.chrome.driver", 
