@@ -9,7 +9,7 @@ public class AccountSettings {
 	
 	public void accountSettingsPage() {
 		
-		WebdriverCommonUtills.performClick(hmp.accountIcon);
+		WebdriverCommonUtills.performClick(hmp.accountIcon); //mohith
 	}
 
 }

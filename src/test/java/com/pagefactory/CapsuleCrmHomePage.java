@@ -14,7 +14,7 @@ public class CapsuleCrmHomePage {
 	public By  login_Button  =By.id("login:login");
 	
 	
-	//*******Home Page Locators*******//
+	//*******Home Page Locators*****
 	
 	public By person_Icon = By.id("ember18");
 	public By addPerson_Icon =By.xpath("//a[@href='/party/person/new']");
